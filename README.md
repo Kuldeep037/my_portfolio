@@ -1,16 +1,16 @@
-# Personal Portfolio Website
+# Kuldeep Sahu - Robotics Engineer Portfolio
 
-A modern, responsive personal portfolio website built with Bootstrap 5. This website serves as a professional showcase of skills, experience, and projects.
+A modern, responsive portfolio website showcasing my skills, experience, and projects as a robotics engineer. Built with Bootstrap 5.
 
 ## Features
 
 - **Responsive Design**: Mobile-first design ensures compatibility across all devices
 - **Modern UI**: Clean, professional layout with gradient accents
 - **Multiple Pages**: 
-  - Home page with introduction
-  - Detailed resume/CV page
-  - Projects showcase
-  - Contact form
+  - Home page with introduction to my robotics expertise
+  - Detailed resume highlighting my experience in robotics engineering
+  - Projects showcase featuring autonomous systems and robotics solutions
+  - Contact form for potential clients and collaborators
 
 ## Technologies Used
 
@@ -23,9 +23,9 @@ A modern, responsive personal portfolio website built with Bootstrap 5. This web
 
 ## Pages
 
-1. **Home Page (index.html)**: Landing page with a brief introduction and profile image
-2. **Resume (resume.html)**: Detailed professional experience, education, and skills
-3. **Projects (projects.html)**: Portfolio of past work with descriptions
+1. **Home Page (index.html)**: Landing page introducing myself as a robotics engineer
+2. **Resume (resume.html)**: Detailed professional experience in robotics, education, and technical skills
+3. **Projects (projects.html)**: Portfolio of robotics projects including autonomous systems and robotic arms
 4. **Contact (contact.html)**: Contact form for potential clients or employers
 
 ## Structure
@@ -52,7 +52,7 @@ my_portfolio/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/my_portfolio.git
+   git clone https://github.com/kuldeepsahu/my_portfolio.git
    cd my_portfolio
    ```
 
@@ -60,10 +60,10 @@ my_portfolio/
 
 ### Customization
 
-- Replace placeholder text in HTML files with your personal information
-- Update the profile image in the `assets` folder with your own
-- Modify the projects in `projects.html` to showcase your work
-- Update skills and experience in `resume.html`
+- Replace the profile image in the `assets` folder with a professional photo
+- Add more detailed robotics projects to `projects.html` with actual project images
+- Update social media links with my actual profiles
+- Integrate a functional contact form
 
 ## Deployment
 
@@ -87,11 +87,9 @@ This project is licensed under the MIT License - see [StartBootstrap's License](
 
 ## Customization To-Do List
 
-- [ ] Update site title and metadata
-- [ ] Replace placeholder text with personal information
-- [ ] Add your own profile picture
-- [ ] Update resume information
-- [ ] Add detailed project descriptions and images
+- [ ] Add actual profile photo
+- [ ] Add screenshots of real robotics projects
 - [ ] Set up contact form functionality
-- [ ] Add social media links
-- [ ] Update copyright information 
+- [ ] Add links to GitHub repositories for open-source projects
+- [ ] Add blog section for robotics insights and research
+- [ ] Include downloadable resume file 
