@@ -10,6 +10,7 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
   - Home page with introduction to my robotics expertise
   - Detailed resume highlighting my experience in robotics engineering
   - Projects showcase featuring autonomous systems and robotics solutions
+  - Skills & Interests page to showcase additional skills and interests
   - Contact form for potential clients and collaborators
 
 ## Technologies Used
@@ -26,7 +27,8 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 1. **Home Page (index.html)**: Landing page introducing myself as a robotics engineer
 2. **Resume (resume.html)**: Detailed professional experience in robotics, education, and technical skills
 3. **Projects (projects.html)**: Portfolio of robotics projects including autonomous systems and robotic arms
-4. **Contact (contact.html)**: Contact form for potential clients or employers
+4. **Skills & Interests (skills.html)**: Additional skills and interests beyond robotics, including artistic, physical, and mindfulness practices
+5. **Contact (contact.html)**: Contact form for potential clients or employers
 
 ## Structure
 
@@ -46,6 +48,7 @@ my_portfolio/
 ├── index.html
 ├── resume.html
 ├── projects.html
+├── skills.html
 ├── contact.html
 └── README.md
 ```
