@@ -16,6 +16,41 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .project-img-container {
+                overflow: hidden;
+                border-radius: 4px;
+                transition: all 0.3s ease;
+            }
+            .project-img-container:hover {
+                transform: scale(1.02);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            }
+            .project-img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+            .project-link {
+                text-decoration: none;
+                color: inherit;
+            }
+            .project-link:hover h2 {
+                color: #0d6efd;
+            }
+            .read-more {
+                font-weight: 600;
+                color: #0d6efd;
+                display: inline-block;
+                margin-top: 8px;
+            }
+            .read-more i {
+                transition: transform 0.3s ease;
+            }
+            .read-more:hover i {
+                transform: translateX(4px);
+            }
+        </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
@@ -39,6 +74,9 @@
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
                         <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                        <div class="d-flex justify-content-center fs-4 gap-4 mt-4">
+                            <a class="text-gradient" href="https://github.com/kuldeepsahu" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -47,10 +85,15 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Autonomous Mobile Robot for Warehouse Operations</h2>
-                                            <p>Designed and implemented a fully autonomous robot capable of navigating warehouse environments to facilitate inventory management. The system uses LiDAR sensors for mapping and localization, computer vision for barcode scanning, and advanced path planning algorithms for efficient navigation. Implemented using ROS2, C++, and Python, with a custom control system for precise movement around shelving units.</p>
+                                            <a href="projects/warehouse-robot.html" class="project-link">
+                                                <h2 class="fw-bolder">Autonomous Mobile Robot for Warehouse Operations</h2>
+                                            </a>
+                                            <p>Designed and implemented a fully autonomous robot capable of navigating warehouse environments to facilitate inventory management. The system uses LiDAR sensors for mapping and localization, computer vision for barcode scanning, and advanced path planning algorithms for efficient navigation.</p>
+                                            <a href="projects/warehouse-robot.html" class="read-more">View Project Details <i class="bi bi-arrow-right"></i></a>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="Warehouse Robot" />
+                                        <a href="projects/warehouse-robot.html" class="project-img-container">
+                                            <img class="project-img" src="assets/warehouse-robot-thumbnail.jpg" alt="Warehouse Robot" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -59,10 +102,15 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Robotic Arm with Advanced Object Recognition</h2>
-                                            <p>Developed a 6-DoF robotic arm with real-time object recognition capabilities. The system uses deep learning models to identify and locate objects, and then plans grasp configurations for effective manipulation. Features include real-time visual servoing, force feedback for delicate handling, and learning from demonstration to improve manipulation tasks over time. Implemented using PyTorch for vision systems and C++ for the control architecture.</p>
+                                            <a href="projects/robotic-arm.html" class="project-link">
+                                                <h2 class="fw-bolder">Robotic Arm with Advanced Object Recognition</h2>
+                                            </a>
+                                            <p>Developed a 6-DoF robotic arm with real-time object recognition capabilities. The system uses deep learning models to identify and locate objects, and then plans grasp configurations for effective manipulation. Features include real-time visual servoing and force feedback for delicate handling.</p>
+                                            <a href="projects/robotic-arm.html" class="read-more">View Project Details <i class="bi bi-arrow-right"></i></a>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="Robotic Arm" />
+                                        <a href="projects/robotic-arm.html" class="project-img-container">
+                                            <img class="project-img" src="assets/robotic-arm-thumbnail.jpg" alt="Robotic Arm" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -71,10 +119,15 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Multi-Robot Coordination System</h2>
-                                            <p>Created a distributed coordination system for a fleet of robots operating in shared environments. The system enables real-time communication between robots to avoid collisions, optimize task allocation, and maximize operational efficiency. Features a decentralized architecture for robustness, reinforcement learning algorithms for adaptive behavior, and simulation capabilities for testing complex scenarios before deployment.</p>
+                                            <a href="projects/multi-robot.html" class="project-link">
+                                                <h2 class="fw-bolder">Multi-Robot Coordination System</h2>
+                                            </a>
+                                            <p>Created a distributed coordination system for a fleet of robots operating in shared environments. The system enables real-time communication between robots to avoid collisions, optimize task allocation, and maximize operational efficiency. Features a decentralized architecture for robustness and reinforcement learning algorithms.</p>
+                                            <a href="projects/multi-robot.html" class="read-more">View Project Details <i class="bi bi-arrow-right"></i></a>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="Multi-Robot System" />
+                                        <a href="projects/multi-robot.html" class="project-img-container">
+                                            <img class="project-img" src="assets/multi-robot-thumbnail.jpg" alt="Multi-Robot System" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +155,7 @@
                         <span class="mx-1">&middot;</span>
                         <a class="small" href="#!">Terms</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
+                        <a class="small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>

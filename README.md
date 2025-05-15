@@ -39,6 +39,10 @@ my_portfolio/
 │   └── styles.css
 ├── js/
 │   └── scripts.js
+├── projects/
+│   ├── warehouse-robot.html
+│   ├── robotic-arm.html
+│   └── multi-robot.html
 ├── index.html
 ├── resume.html
 ├── projects.html
@@ -105,10 +109,21 @@ Alternatively, you can host this as a project site:
 ## Important Notes
 
 - To make the "Download Resume" button work, add your resume PDF file to the `assets` folder and name it `Kuldeep_sahu_resume.pdf`
-- Replace the placeholder project images:
-  - Currently, the projects page uses placeholder image URLs (`https://dummyimage.com/300x400/343a40/6c757d`)
-  - Add your project images to the `assets` folder (recommended size: 300x400px)
-  - Update the image paths in `projects.html` to point to your images (e.g., `src="assets/project1.jpg"`)
+- Add project images to enhance your portfolio:
+  - Project thumbnails: Add images to the `assets` folder named:
+    - `warehouse-robot-thumbnail.jpg`
+    - `robotic-arm-thumbnail.jpg`
+    - `multi-robot-thumbnail.jpg`
+  - Detailed project images: Add full-sized images for each project:
+    - Warehouse robot project: `assets/warehouse-robot-1.jpg`, `assets/warehouse-robot-2.jpg`, `assets/warehouse-robot-3.jpg`
+    - Robotic arm project: `assets/robotic-arm-1.jpg`, `assets/robotic-arm-2.jpg`, `assets/robotic-arm-3.jpg`
+    - Multi-robot project: `assets/multi-robot-1.jpg`, `assets/multi-robot-2.jpg`, `assets/multi-robot-3.jpg`, `assets/multi-robot-sim.jpg`
+- Add research documents for each project (optional):
+  - For warehouse robot: `assets/warehouse-robot-whitepaper.pdf`, `assets/warehouse-robot-presentation.pdf`
+  - For robotic arm: `assets/robotic-arm-paper.pdf`, `assets/robotic-arm-technical-doc.pdf`
+  - For multi-robot system: `assets/multi-robot-research.pdf`, `assets/multi-robot-design.pdf`
+- Update YouTube video IDs in the project detail pages:
+  - In each project's HTML file, replace `your-video-id` with actual YouTube video IDs
 - Update social media links in `index.html` with your actual profiles
 
 ## Credits
