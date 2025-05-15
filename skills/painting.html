@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Kuldeep Sahu - Painting Portfolio" />
+        <meta name="author" content="Kuldeep Sahu" />
+        <title>Kuldeep Sahu - Painting</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <style>
+            .gallery-item {
+                margin-bottom: 30px;
+                transition: all 0.3s ease;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            .gallery-item:hover {
+                transform: scale(1.02);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+            .gallery-img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                height: 0;
+                margin-bottom: 1.5rem;
+            }
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+            .section-divider {
+                margin: 4rem 0;
+            }
+            .painting-quote {
+                font-style: italic;
+                font-size: 1.2rem;
+                color: #6c757d;
+                border-left: 4px solid var(--bs-primary);
+                padding-left: 1rem;
+                margin: 2rem 0;
+            }
+            .timeline-item {
+                position: relative;
+                padding-left: 2rem;
+                margin-bottom: 2rem;
+                border-left: 2px solid var(--bs-primary);
+            }
+            .timeline-date {
+                position: absolute;
+                left: -45px;
+                background: var(--bs-primary);
+                color: white;
+                padding: 0.2rem 0.5rem;
+                border-radius: 4px;
+                font-size: 0.8rem;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="../index.html"><span class="fw-bolder text-primary">Kuldeep Sahu</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../skills.html">Skills & Interests</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Header Section-->
+            <section class="py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="text-center mb-5">
+                                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">My Artistic Journey</span></h1>
+                                <div class="d-flex justify-content-center fs-4 gap-4 mt-4">
+                                    <a class="text-gradient" href="https://instagram.com/kuldeep.art" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+                                </div>
+                                <p class="lead fw-light mb-4 mt-3">Exploring Creativity Through Watercolors and Acrylics</p>
+                                <p class="text-muted">Painting is my meditative escape from the logical world of robotics. I find that artistic expression enhances my ability to think creatively about engineering problems, providing a different perspective on design and aesthetics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Gallery Section -->
+            <section class="py-5 bg-white">
+                <div class="container px-5">
+                    <h2 class="fw-bolder mb-4">Gallery</h2>
+                    <div class="row gx-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-1.jpg" alt="Mountain Landscape" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Mountain Serenity</h5>
+                                    <p class="small text-muted mb-0">Watercolor on paper, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-2.jpg" alt="Abstract Composition" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Flowing Energy</h5>
+                                    <p class="small text-muted mb-0">Acrylic on canvas, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-3.jpg" alt="Sunset Over Lake" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Golden Hour</h5>
+                                    <p class="small text-muted mb-0">Watercolor on paper, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-4.jpg" alt="Forest Path" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Forest Whispers</h5>
+                                    <p class="small text-muted mb-0">Acrylic on canvas, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-5.jpg" alt="City Scene" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Urban Poetry</h5>
+                                    <p class="small text-muted mb-0">Mixed media, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="../assets/painting-6.jpg" alt="Abstract Nature" class="gallery-img">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Nature's Rhythm</h5>
+                                    <p class="small text-muted mb-0">Watercolor on paper, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="section-divider"></div>
+            
+            <!-- Process Videos Section -->
+            <section class="py-5">
+                <div class="container px-5">
+                    <h2 class="fw-bolder mb-4">Process Videos</h2>
+                    <div class="row gx-5">
+                        <div class="col-lg-6 mb-4">
+                            <h4 class="fw-bold mb-3">Mountain Landscape Technique</h4>
+                            <div class="video-container">
+                                <!-- Replace with your actual YouTube video ID -->
+                                <iframe src="https://www.youtube.com/embed/your-video-id-1" title="Mountain Landscape Painting Technique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p>This video demonstrates my approach to painting mountain landscapes using wet-on-wet watercolor techniques, creating atmospheric depth and dramatic light effects.</p>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <h4 class="fw-bold mb-3">Abstract Expression Process</h4>
+                            <div class="video-container">
+                                <!-- Replace with your actual YouTube video ID -->
+                                <iframe src="https://www.youtube.com/embed/your-video-id-2" title="Abstract Painting Process" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p>A time-lapse showing how I build layers of acrylic paint to create abstract compositions, focusing on color relationships and textural contrasts.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="section-divider"></div>
+            
+            <!-- Artist Statement Section -->
+            <section class="py-5 bg-white">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <h2 class="fw-bolder mb-4">Artist Statement</h2>
+                            <p>My artistic practice explores the intersection between the natural world and human experience. As a robotics engineer by profession, I find that painting provides a necessary counterbalance to the precision and logic of my technical work.</p>
+                            
+                            <p>My landscapes capture moments of tranquility and majesty in nature, while my abstract works delve into the emotional experiences that connect us to our environment. I'm particularly interested in how color and composition can evoke specific emotional responses.</p>
+                            
+                            <div class="painting-quote">
+                                "I paint to understand the world differently than I do through equations and algorithms. The brush allows me to explore questions that don't have binary answers."
+                            </div>
+                            
+                            <p>Watercolor is my primary medium for its transparency and unpredictability. I embrace the way water moves pigment in sometimes unexpected directions — a reminder that not everything can or should be controlled. When working with acrylics, I focus on building textured layers that invite viewers to consider both what's visible and what lies beneath.</p>
+                            
+                            <p>My engineering background influences my artistic approach in subtle ways: I find myself drawn to certain structural patterns in nature, and I often analyze the interplay of light and shadow with a somewhat technical eye. Yet painting allows me to transcend the boundaries of technical precision and enter a space where intuition guides creation.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="section-divider"></div>
+            
+            <!-- Timeline Section -->
+            <section class="py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <h2 class="fw-bolder mb-4">Artistic Journey</h2>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2018</div>
+                                    <h5 class="fw-bold">First Watercolor Workshop</h5>
+                                    <p>Participated in a weekend workshop that introduced me to basic watercolor techniques. This sparked my interest in pursuing painting as a serious hobby.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2019</div>
+                                    <h5 class="fw-bold">Local Art Group Membership</h5>
+                                    <p>Joined a local art group that meets monthly for plein air painting sessions. Learning from experienced artists significantly improved my understanding of composition and color theory.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2020</div>
+                                    <h5 class="fw-bold">First Exhibition</h5>
+                                    <p>Participated in a group exhibition at a community gallery. The experience of sharing my work publicly was both nerve-wracking and thrilling.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2021</div>
+                                    <h5 class="fw-bold">Advanced Techniques Study</h5>
+                                    <p>Completed an online course focused on advanced acrylic techniques and mixed media approaches, which opened new avenues for experimentation in my work.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2022</div>
+                                    <h5 class="fw-bold">Solo Exhibition</h5>
+                                    <p>Held my first solo exhibition titled "Natural Algorithms" at a local arts center, exploring the connections between nature, technology, and art.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2023</div>
+                                    <h5 class="fw-bold">Art Retreat</h5>
+                                    <p>Attended a week-long painting retreat in the mountains, which deepened my connection to landscape painting and inspired a new series of works.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Back Button-->
+            <div class="container px-5 mb-5">
+                <div class="text-center">
+                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="../skills.html">
+                        <i class="bi bi-arrow-left me-2"></i>Back to Skills & Interests
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Kuldeep Sahu 2024</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="../contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../js/scripts.js"></script>
+    </body>
+</html> 

@@ -36,7 +36,9 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 my_portfolio/
 ├── assets/
 │   ├── favicon.ico
-│   └── profile.png
+│   ├── profile.png
+│   ├── painting-1.jpg (to painting-6.jpg)
+│   └── meditation-1.jpg (to meditation-3.jpg)
 ├── css/
 │   └── styles.css
 ├── js/
@@ -45,6 +47,10 @@ my_portfolio/
 │   ├── warehouse-robot.html
 │   ├── robotic-arm.html
 │   └── multi-robot.html
+├── skills/
+│   ├── painting.html
+│   ├── meditation.html
+│   └── (other skill pages will be added)
 ├── index.html
 ├── resume.html
 ├── projects.html
