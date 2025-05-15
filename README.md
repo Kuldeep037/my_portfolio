@@ -75,6 +75,42 @@ This site can be deployed to any static site hosting platform:
 - Firebase Hosting
 - Amazon S3
 
+## Deployment on GitHub Pages
+
+This portfolio is designed to be hosted on GitHub Pages. Follow these steps to deploy:
+
+1. Create a GitHub repository named `username.github.io` (replace "username" with your GitHub username)
+2. Push this project to the repository:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/username/username.github.io.git
+   git push -u origin main
+   ```
+3. Go to your repository settings on GitHub
+4. Navigate to the "Pages" section
+5. Select "main" branch as the source
+6. Click "Save"
+7. Your portfolio will be available at `https://username.github.io` within a few minutes
+
+Alternatively, you can host this as a project site:
+
+1. Create any repository for this project
+2. Push the code
+3. Go to repository settings > Pages
+4. Set the branch to "main" and folder to "/ (root)"
+5. Your site will be available at `https://username.github.io/repository-name`
+
+## Important Notes
+
+- To make the "Download Resume" button work, add your resume PDF file to the `assets` folder and name it `Kuldeep_sahu_resume.pdf`
+- Replace the placeholder project images:
+  - Currently, the projects page uses placeholder image URLs (`https://dummyimage.com/300x400/343a40/6c757d`)
+  - Add your project images to the `assets` folder (recommended size: 300x400px)
+  - Update the image paths in `projects.html` to point to your images (e.g., `src="assets/project1.jpg"`)
+- Update social media links in `index.html` with your actual profiles
+
 ## Credits
 
 - Template originally based on [Start Bootstrap - Personal](https://startbootstrap.com/template-overviews/personal)
